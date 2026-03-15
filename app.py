@@ -9,7 +9,7 @@ import os, time
 # ── CONFIG ──────────────────────────────────────────────────────────────────
 st.set_page_config(page_title="Procurement Dashboard", layout="wide", page_icon="📊")
 
-DATA_DIR = Path(os.environ.get("DATA_DIR", "./data"))
+DATA_DIR = Path(".")
 COLORS = {
     "primary": "#1B3A5C",
     "accent": "#2E86AB",
